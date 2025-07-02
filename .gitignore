@@ -1,0 +1,110 @@
+# ==============================
+# 操作系统/编辑器生成的文件
+# ==============================
+.DS_Store          # macOS 属性文件
+Thumbs.db          # Windows 缩略图缓存
+*.swp              # Vim 临时文件
+*.swo              # Vim 临时文件
+~$*                # Office 临时文件
+*.lnk              # Windows 快捷方式
+
+# ==============================
+# IDE 和开发工具文件
+# ==============================
+# JetBrains (IntelliJ IDEA, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Eclipse
+.settings/
+.project
+.classpath
+*.tmp
+*.bak
+
+# ==============================
+# 编译和构建输出
+# ==============================
+# Java
+target/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==============================
+# 日志和临时文件
+# ==============================
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ==============================
+# 依赖和包管理
+# ==============================
+# Maven
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# ==============================
+# 环境变量和敏感数据
+# ==============================
+.env                # 环境变量文件
+*.key
+*.pem
+*.cert
+*.pub
+*.secret
+
+# ==============================
+# 测试和覆盖率报告
+# ==============================
+coverage/
+*.lcov
+.nyc_output/
+
+# ==============================
+# 系统文件
+# ==============================
+# Windows
+*.exe
+*.dll
+*.msi
+*.cab
+
+# macOS
+._*
+.Spotlight-V100
+.Trashes
